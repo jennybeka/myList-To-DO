@@ -1,0 +1,98 @@
+ @import url('https://fonts.googleapis.com/css?family=Chilanka|Manjari&display=swap');
+body {
+    background-image: linear-gradient(120deg, #487eb0,#cc66ff);
+    font-family: "chilanka", sans-serif;
+}
+header{
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    text-align: justify;
+}
+
+section{
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
+
+}
+input[type="text"] {
+    width: 50%;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+    font-family: "chilanka", sans-serif;
+}
+/*
+input[type="button"] {
+    outline: none;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 5px;
+    transition: .2s;
+}
+input[type="button"]:hover {
+    background-color: rgb(71, 236, 85);
+}
+*/
+
+div{
+    text-align: center;
+}
+
+
+.tarefas {
+    width: auto;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 18px;
+    margin: 6px;
+}
+    
+.tarefas i {
+    
+    float: right;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: .2s;
+
+}
+.tarefas:hover {
+    background-color: #ECE2ED;
+}
+
+    
+.completas .tarefas {
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    
+}
+.completas .tarefas:hover {
+    background-color: #5D1866;
+}    
+    
+h3 {
+    margin: 10px 0;
+}
+
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+}
+
+
+
+ol.myList li {
+    text-align: center;
+    width: 10%;
+    
+}
+
