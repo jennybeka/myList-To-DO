@@ -1,5 +1,5 @@
 # myList-To-DO
- create lists using jquery
+ create lists using jquery - task list-
 A quick and handy little app using jQuery.
 We are adding more functions to it gradually. enjoy
 
